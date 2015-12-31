@@ -1,11 +1,17 @@
 # README
 
+## Required
+
+- `npm` and nodeJS
+- `alfred-json`
+
 ## Install
 
 ```
 npm install;
 cp config_example.json config.json;
 ```
+
 ## Configuration
 Edit `config.json`:
 
