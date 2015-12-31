@@ -5,7 +5,8 @@ config = require('./config')
 options =
 	transports: ['websocket']
 	path: '/ws'
-	'force new connection': true
+	reconnection: false
+	connect_timeout: 2000
 
 alfred = (r,call)->
 	prozess = spawn('alfred-json', ["-z","-s",config.socket_alfred,"-r",r])
