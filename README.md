@@ -6,7 +6,8 @@
 npm install;
 cp config_example.json config.json;
 ```
-## Konfiguration
+## Configuration
+Edit `config.json`:
 
 ```javascript
 {
