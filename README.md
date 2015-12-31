@@ -8,7 +8,7 @@ cp config_example.json config.json;
 ```
 ## Konfiguration
 
-```
+```javascript
 {
 	"passphrase":"test", //Passphrase for authentification to server
 	"url_socket":"http://localhost:8080", // Url of server
